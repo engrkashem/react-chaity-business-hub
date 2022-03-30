@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav >
             <div className='flex justify-between items-center p-6 bg-slate-900 font-bold'>
                 <div>
-                    <h3 className='text-3xl  text-teal-200 pb-4'>CHAITY'S WORLD</h3>
+                    <h3 className='text-4xl  text-teal-200 pb-8 font-mono'>CHAITY'S WORLD</h3>
                 </div>
                 <div>
                     <div onClick={() => setOpen(!open)} className='w-10 h-10 text-teal-400 sm:hidden'>
